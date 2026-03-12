@@ -1,0 +1,20 @@
+.git
+.gitignore
+.next
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lock
+.DS_Store
+.vscode
+.idea
+
+# Environment files should be passed at runtime, not baked into images.
+.env
+.env.*
+
+# Documentation and local metadata not required for runtime image.
+README.md
+memories
